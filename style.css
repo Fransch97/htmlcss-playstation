@@ -183,6 +183,9 @@ header{
         background-position: center;
         background-size: cover;
     }
+    .sponsored-game img{
+        width: 60%;
+    }
     /*END SPONSORED-GAME  */
 
 
