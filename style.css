@@ -153,7 +153,7 @@ header{
     
     /*END PLAYSTATION-4 */
 
-
+    /* PLAYSTATION-PLUS  */
     .playstation-plus{
         padding: 0 80px;
         display: flex;
@@ -179,6 +179,9 @@ header{
         width: 50%;
         display: inline-block;
     }
+    /*END PLAYSTATION-PLUS  */
+
+    
 /*END MAIN  */
 
 
