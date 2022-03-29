@@ -1,3 +1,36 @@
 /* body{
     background-color: red;
 } */
+
+/* GENERAL  */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+/*END GENERAL  */
+
+
+/*utilitys */
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: aqua;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: yellowgreen;
+}
+
+.height100{
+    height: 100%;
+}
+ 
+.border-d{
+    border: 2px solid black;
+}
+/* end utilitys */
