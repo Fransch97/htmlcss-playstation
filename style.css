@@ -58,6 +58,7 @@ header{
     left: 0;
     width: 100%;
     background-color: white;
+    z-index: 1000;
 }
 
 .logo{
@@ -79,7 +80,9 @@ header{
     display: flex;
     align-items: flex-end;
 }
-
+header .nav.navbar-nav.mb-2.mb-lg-0 a.accedi{
+    color: white;
+}
 /*END HEADER  */    
 
 /* JUMBO-JET  */
