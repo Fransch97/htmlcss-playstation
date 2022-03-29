@@ -98,14 +98,19 @@ header{
     width: 100%;
     border-radius: 20px;
 }
-.border-game{
-    padding: 2px;
-    border-radius: 20px;
-}
 .border-game.active{
     border: 3px solid blue;
 
 }
+.border-game{
+    padding: 2px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.border-game:hover{
+    transform: translateY(-20%);
+}
+
 /*END HIGHEST-GAME */
 
 
@@ -224,6 +229,13 @@ header{
 
 
 /* MEDIAQUERY */
+
+@media (min-width:768px){
+    .spacing-media{
+        justify-content: space-around;
+    }
+}
+
 @media (max-width:1200px){
     .playstation-plus {
         padding: 80px 0;
