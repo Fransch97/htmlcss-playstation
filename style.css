@@ -21,6 +21,20 @@
     li{
         list-style: none;
     }
+    .box-shadow-button{
+        box-shadow:inherit 2px 1px white;
+    }
+    .buy-game{
+        background-color: #dc3545;
+        border-radius: 20px;
+        padding: 3px;
+    }
+    .box-borders{
+        border: solid 2px #dc3545;
+    }
+    .buy-game:hover .box-borders{
+        border: solid 2px black;
+    } 
 /*END GENERAL  */
 
 
