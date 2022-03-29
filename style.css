@@ -21,13 +21,46 @@
     li{
         list-style: none;
     }
-    
+    header ul.dropdown-menu{
+        width: 52vw;
+    }
+    header ul li{
+        display: inline-block;
+    }
+    .navbar-light .nav-item .nav-link:hover {
+        color: #0dcaf0;
+        opacity: 1;
+    }
+    h6{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .chevron,
+    .chevron-up{
+        width: 10px;
+    }
+    .chevron-up{
+        display: none;
+        transition: 2s;
+        color: #0dcaf0;
+    }
+    .dropdown-toggle::after{
+        border-top: none;
+    }
+    .navbar-light .nav-item .nav-link:hover .chevron{
+        display: none;
+    }
+    .navbar-light .nav-item .nav-link:hover .chevron-up{
+        display: inline-block;
+    }
     /* BONUS BUTTONS */
-    .buy-game{
+    .buy-game,
+    .more-info,
+    .play-plus-info{
         padding: 3px;
         display: inline-block;
         border: solid 4px #dc354600;
-
+        border-radius: 50rem;
     }
     .box-borders{
         border: solid 2px #dc3545;
@@ -47,6 +80,21 @@
     }
     #border-pls:hover #accedi {
         background-color: gray;
+    }
+    #button-border-hardware{
+        border: #00439c 3px solid black;
+    }
+
+    .more-info:hover{
+        border: solid 4px #0dcaf0;
+
+    }
+    .more-info:hover .btn-info{
+        color: white;
+    }
+    .play-plus-info:hover{
+        border: solid 4px white;
+        
     }
 /*END GENERAL  */
 
