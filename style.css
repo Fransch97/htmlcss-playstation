@@ -128,6 +128,18 @@ header{
     .high-product img{
         width: 100%;
     }
+
+    .hard-ps5{
+        opacity: 0.4;
+        transition: 1s;
+    }
+    .hard-ps5:hover{
+        opacity: 1;
+    }
+    .hard-ps5.active-hardware{
+        opacity: 1;
+        border-bottom: solid 1px blue;
+    }
 /* <!--END HARDWARE-PRODUCTS --> */
 
 
