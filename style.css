@@ -6,7 +6,9 @@
         padding: 0;
         box-sizing: border-box;
     }
-    
+    img{
+        width: 100%;
+    }
 /*END GENERAL  */
 
 
@@ -69,6 +71,14 @@ header{
 /*END HEADER  */    
 
 /* JUMBO-JET  */
+
+
+
+/*END JUMBO-JET */
+
+/* MAIN  */
+
+/* HIGHEST-GAME */
 .heighest-game-container{
     margin-top: 20px;
 }
@@ -84,11 +94,30 @@ header{
     border: 3px solid blue;
 
 }
+/*END HIGHEST-GAME */
 
 
-/*END JUMBO-JET */
 
-/* MAIN  */
+
+/* <!-- HARDWARE-PRODUCTS --> */
+    .hardware-products{
+        padding: 50px;
+    }
+    .slogan{
+        text-transform: uppercase;
+        color: aqua;
+    }
+
+
+
+    .high-product img{
+        width: 100%;
+    }
+/* <!--END HARDWARE-PRODUCTS --> */
+
+
+
+
 
 /*END MAIN  */
 
