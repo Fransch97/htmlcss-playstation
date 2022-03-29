@@ -18,6 +18,9 @@
     h1{
         padding-top: 20px ;
     }
+    li{
+        list-style: none;
+    }
 /*END GENERAL  */
 
 
@@ -109,7 +112,7 @@ header{
 
 
 /* <!-- HARDWARE-PRODUCTS --> */
-    
+ 
     .slogan{
         text-transform: uppercase;
         color: aqua;
@@ -141,6 +144,7 @@ header{
     /* NEW-GAMES  */
     .new-games{
         color: white;
+        background-color: #1f1f1f;
     }
     .new-games img{
         border-radius: 20px;
@@ -155,6 +159,7 @@ header{
 
     /* PLAYSTATION-PLUS  */
     .playstation-plus{
+        background-color: #bebcbb;
         padding: 0 80px;
         display: flex;
         align-items: center;
@@ -181,10 +186,25 @@ header{
     }
     /*END PLAYSTATION-PLUS  */
 
-    
+
 /*END MAIN  */
 
 
 /* FOOTER */
-
+ /* COPY-RIGHTS */
+    .copyrights{
+        background-color: #00439c;
+        color: white;
+    }
+    .logo-footer{
+        width: 100px;
+    }
+    footer ul li{
+        color: white;
+    }
+    footer ul li a{
+        color: white;
+        text-decoration: none;
+    }
+ /*END COPY-RIGHTS */
 /*END FOOTER  */
