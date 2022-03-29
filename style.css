@@ -61,6 +61,11 @@ header{
     z-index: 1000;
 }
 
+.navbar-light .nav-item .nav-link{
+    opacity: 1;
+    color: rgba(0, 0, 0, 1);
+    font-weight: bolder;
+}
 .logo{
     height: 40px;
     padding: 0 20px;
@@ -80,9 +85,14 @@ header{
     display: flex;
     align-items: flex-end;
 }
-header .nav.navbar-nav.mb-2.mb-lg-0 a.accedi{
+/* .nav-link.black.rounded-pill.accedi{
     color: white;
-}
+    font-weight: bold;
+    margin: 0 10px;
+    text-align: center;
+    border: inherit 2px solid white;
+} */
+
 /*END HEADER  */    
 
 /* JUMBO-JET  */
@@ -126,7 +136,9 @@ header .nav.navbar-nav.mb-2.mb-lg-0 a.accedi{
         color: aqua;
     }
 
-
+   .grey{
+        color: #707070;
+    }
 
     .high-product img{
         width: 100%;
@@ -211,7 +223,7 @@ header .nav.navbar-nav.mb-2.mb-lg-0 a.accedi{
 
 
     .playstation-plus.now{
-        padding: 80px 0;
+        padding: 80px 80px;
         color: white;
         background-color:#161c3b ;
     }
@@ -237,6 +249,10 @@ header .nav.navbar-nav.mb-2.mb-lg-0 a.accedi{
         color: white;
         text-decoration: none;
     }
+
+    .whitepls{
+        color: white;
+    }
  /*END COPY-RIGHTS */
 /*END FOOTER  */
 
@@ -253,7 +269,7 @@ header .nav.navbar-nav.mb-2.mb-lg-0 a.accedi{
 
 @media (max-width:1200px){
     .playstation-plus {
-        padding: 80px 0;
+        padding: 80px ;
         width: 100%;
         display: flex;
         flex-direction: column;
