@@ -122,18 +122,63 @@ header{
     }
 /* <!--END HARDWARE-PRODUCTS --> */
 
+
+
+
     /* SPONSORED-GAME  */
     .sponsored-game{
         padding: 80px 0;
         color: white;
         background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+        background-position: center;
+        background-size: cover;
     }
     /*END SPONSORED-GAME  */
 
 
 
 
+    /* NEW-GAMES  */
+    .new-games{
+        color: white;
+    }
+    .new-games img{
+        border-radius: 20px;
+    }
+    /*END NEW-GAMES  */
 
+
+
+    /* PLAYSTATION-4 */
+    
+    /*END PLAYSTATION-4 */
+
+
+    .playstation-plus{
+        padding: 0 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .playstation-plus .logo-img-psplus{
+        width: 70%;
+    }
+    .playstation-plus .banner{
+        height: 100%;
+        box-shadow: 10 10 10 black;
+    }
+    .extra-padding{
+        padding: 70px 0;
+    }
+    .playstation-plus .left
+    {
+        display: inline-block;
+        width: 49%;
+    }
+    .playstation-plus .right{
+        width: 50%;
+        display: inline-block;
+    }
 /*END MAIN  */
 
 
