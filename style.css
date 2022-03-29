@@ -9,6 +9,15 @@
     img{
         width: 100%;
     }
+    section{
+        padding: 50px 0;
+    }
+    p{
+        padding: 30px 0;
+    }
+    h1{
+        padding-top: 20px ;
+    }
 /*END GENERAL  */
 
 
@@ -100,9 +109,7 @@ header{
 
 
 /* <!-- HARDWARE-PRODUCTS --> */
-    .hardware-products{
-        padding: 50px;
-    }
+    
     .slogan{
         text-transform: uppercase;
         color: aqua;
@@ -114,6 +121,14 @@ header{
         width: 100%;
     }
 /* <!--END HARDWARE-PRODUCTS --> */
+
+    /* SPONSORED-GAME  */
+    .sponsored-game{
+        padding: 80px 0;
+        color: white;
+        background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    }
+    /*END SPONSORED-GAME  */
 
 
 
