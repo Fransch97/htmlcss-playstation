@@ -56,7 +56,7 @@ header{
 }
 .jumbo{
     margin-top: 100px;
-    height: 800px;
+    height: 70vh;
     padding-bottom: 100px;
     color: white;
     background-image: url(img/jumbo-bg.png);
@@ -68,6 +68,25 @@ header{
 
 /*END HEADER  */    
 
+/* JUMBO-JET  */
+.heighest-game-container{
+    margin-top: 20px;
+}
+.heighest-game-container img{
+    width: 100%;
+    border-radius: 20px;
+}
+.border-game{
+    padding: 2px;
+    border-radius: 20px;
+}
+.border-game.active{
+    border: 3px solid blue;
+
+}
+
+
+/*END JUMBO-JET */
 
 /* MAIN  */
 
