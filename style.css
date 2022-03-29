@@ -28,6 +28,7 @@
         background-color: #dc3545;
         border-radius: 20px;
         padding: 3px;
+        display: inline-block;
     }
     .box-borders{
         border: solid 2px #dc3545;
