@@ -61,19 +61,31 @@
     }
     /* BONUS BUTTONS */
    
-    .btn:hover  {
-        outline: 2px solid white;
-        outline-offset: -4px;
-    }
-    
-    #accedi:hover{
-        background-color: #707070;
-    }
+    .buy-game{
+        padding: 3px;
+        display: inline-block;
+        border: solid 4px #dc354600;
 
-    .btn-info{
-        color: white;
     }
+    .box-borders{
+        border: solid 2px #dc3545;  
+    }
+    .buy-game:hover{
+        border: solid 4px #dc3545;
+        
+    }
+    #border-pls{
+        padding: 3px;
+        border: 4px solid rgba(128, 128, 128, 0);
+    }
+    #border-pls:hover{
+        border: 4px solid rgba(128, 128, 128, 1);
+        transition: 1s;
 
+    }
+    #border-pls:hover #accedi {
+        background-color: gray;
+    }
     /* NAV DROPDOWN BONUS */
     .dropdown, .dropend, .dropstart, .dropup{
         position: static;
