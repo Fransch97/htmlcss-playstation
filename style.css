@@ -86,7 +86,11 @@
         background-color: gray;
         width: 100%;
     }
-/*    
+    .play-plus-info:hover{
+       box-shadow: 20px white;
+        border-radius: 50rem;
+    }
+/*   
     ! this was second code that i did because of homework and in real playstaion website it's how i write the code before.!
     .btn:hover  {
         outline: 2px solid white;
@@ -260,6 +264,14 @@ header{
     outline-offset: 3px;
 }
 
+#playstation-plus-btn:hover{
+    box-shadow: 0px 0px 10px white;
+     border-radius: 50rem;
+ }
+.play-now-btn:hover{
+    box-shadow: 0px 0px 10px white;
+     border-radius: 50rem;
+ }
 /*END HIGHEST-GAME */
 
 /* <!-- HARDWARE-PRODUCTS --> */
