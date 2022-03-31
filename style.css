@@ -60,7 +60,6 @@
         display: inline-block;
     }
     /* BONUS BUTTONS */
-   
     .buy-game{
         padding: 3px;
         display: inline-block;
@@ -68,7 +67,7 @@
 
     }
     .box-borders{
-        border: solid 2px #dc3545;  
+        border: solid 2px #dc3545;
     }
     .buy-game:hover{
         border: solid 4px #dc3545;
@@ -86,6 +85,21 @@
     #border-pls:hover #accedi {
         background-color: gray;
     }
+/*    
+    ! this was second code that i did because of homework and in real playstaion website it's how i write the code before.!
+    .btn:hover  {
+        outline: 2px solid white;
+        outline-offset: -4px;
+    }
+    
+    #accedi:hover{
+        background-color: #707070;
+    }
+
+    .btn-info{
+        color: white;
+    } */
+
     /* NAV DROPDOWN BONUS */
     .dropdown, .dropend, .dropstart, .dropup{
         position: static;
