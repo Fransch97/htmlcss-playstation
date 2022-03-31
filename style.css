@@ -239,15 +239,16 @@ header{
 }
 .border-game.active{
     border: 3px solid blue;
+    padding: 2px;
+
 
 }
 .border-game.active:hover{
     border: none;
 }
 .border-game{
-    padding: 2px;
     border-radius: 20px;
-    transition: 1s;
+    transition: 0.3s;
     outline: #00449c00 3px solid;
 
 }
