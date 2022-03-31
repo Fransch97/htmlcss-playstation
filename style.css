@@ -60,11 +60,12 @@
         display: inline-block;
     }
     /* BONUS BUTTONS */
-    .buy-game{
+    .buy-game,
+    .more-info{
         padding: 3px;
         display: inline-block;
         border: solid 4px #dc354600;
-
+        border-radius: 50rem;
     }
     .box-borders{
         border: solid 2px #dc3545;
@@ -84,12 +85,19 @@
     }
     #border-pls:hover #accedi {
         background-color: gray;
-        width: 100%;
     }
-    .play-plus-info:hover{
-       box-shadow: 20px white;
-        border-radius: 50rem;
+    #button-border-hardware{
+        border: #00439c 3px solid black;
     }
+
+    .more-info:hover{
+        border: solid 4px #0dcaf0;
+
+    }
+    .more-info:hover .btn-info{
+        color: white;
+    }
+    
 /*   
     ! this was second code that i did because of homework and in real playstaion website it's how i write the code before.!
     .btn:hover  {
@@ -292,13 +300,16 @@ header{
     .hard-ps5{
         opacity: 0.4;
         transition: 1s;
+        
+        border-radius: 20px;
+      
     }
     .hard-ps5:hover{
         opacity: 1;
     }
     .hard-ps5.active-hardware{
         opacity: 1;
-        border-bottom: solid 1px blue;
+        border: solid 2px blue;
     }
 /* <!--END HARDWARE-PRODUCTS --> */
 
